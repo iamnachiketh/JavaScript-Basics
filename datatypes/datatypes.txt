@@ -1,0 +1,48 @@
+JavaScript has 8 Datatypes
+
+1) Number - Javascript numbers are always one type: double (64-bit floating point).
+2) String
+3) BigInt - for this you have to add n at the end of intialization
+4) Boolean
+5) null  - Special primitive types
+6) Undefined
+7) Object
+8) Symbol
+
+Types of Datatypes 1) Primitive 
+                   2) Non Primitive
+
+-  The Primitive Datatypes are String, Number, BigInt, Boolean, null, Undefined, Symbol
+
+-  The object data type can contain both built-in objects, and user defined objects
+
+-  Built-in object types can be: objects, arrays, dates, maps, sets, intarrays, floatarrays, promises, and more
+
+-  In Array the highest possible index is upto (2^32−2).
+
+Wrapper Object for primitives are:
+            1) String(type is string) -> new String("value")
+            2) Number(type is number) -> new Number(value)
+            3) Boolean(type is boolean) -> new Boolean(value)
+
+-  You pass number inside string it will convert that number into string
+
+- You can pass string representation of a number inside Number object if it can be converted into 
+    number it will convert it into number otherwise it gives NaN
+
+
+Diff Between Primitive and Non - Primitive
+
+Feature	    |    Primitive	       |      Wrapper Object
+
+Type	    |   Immutable value	   |      Mutable object
+Memory		|    Stack             |      Heap
+Performance	|    Faster	           |      Slower
+Usage	    |    Simple operations |      Extended functionality
+Equality	|    Value-based	   |      Reference-based
+
+- Generally We Use primitives for performance and optimization
+
+- We use wrapper objects for extended functionality and complex operations
+
+
