@@ -1,11 +1,12 @@
 // Function Statment
-function xyz() {
-    console.log(a)
-    var a;
+function student() {
+    s = "Student Reads";
+    console.log(s)
+    var s;
 }
 
 //Arrow function
-let abc = () =>{
+let doSomething = () =>{
 
 }
 
@@ -15,8 +16,8 @@ let abc = () =>{
 }
 
 // Function expression.
-let ghi = () => console.log("ghi function!!"); 
-console.log(ghi());
+let multiplyByTwo = (num) => num*2; 
+console.log(ghi(10));
 
 
 // FIRST CLASS FUNCTIONS
@@ -57,7 +58,7 @@ let greet = ()=>{
     }
 }
 
-let sayGreet = greet();
-sayGreet(); // Greeting
+let greetPeople = greet();
+greetPeople(); // Greeting
 
 //Note: hoisting also happens with respect to functions too
