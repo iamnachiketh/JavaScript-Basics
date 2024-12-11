@@ -23,10 +23,12 @@ function xyz(){
 }
 
 // Note: window object is provided by the browser 
+
 //       Global object in provided by the node/v8 engine
 
 
 //Redeclaration
+
 let g = 10;
 // let g = 20; // you will get syntax error
 
@@ -39,12 +41,14 @@ let g = 10;
 // console.log(h);// NOT DEFINED coz scope of h is only limited to a block, Refference error.
 
 //Temporal Dead Zone
+
 //console.log(f); //Refference error coz its in temporal dead zone.
 let f = 50;
 
-//const
+//CONST
 
 const pi = 3.45657;
+
 //pi = 3.98676; // We will get an type error.
 console.log(pi);
 
