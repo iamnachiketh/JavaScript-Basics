@@ -6,11 +6,11 @@
 
 // first execution context of thses function directly pushed on to main stack excuted by main thread
 
-let xyz = () =>{
+let display = () =>{
     console.log("syncronized normal arrow function"); // 1st this is executed 
 }
-xyz();
-console.log("outside xyz function!!"); // 2nd this is executed
+display();
+console.log("outside display function!!"); // 2nd this is executed
 
 
 // ASYNC - non - blocking oprations like promise, callback functions.
