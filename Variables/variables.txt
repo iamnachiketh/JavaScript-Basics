@@ -1,0 +1,49 @@
+- variables are basically containers which is used to hold a value
+
+- we have to follow identifier rules while naming a variable
+
+- variable can be declared using two keywords let and var
+
+VAR
+- It was present from the begining of JavaScript
+
+- You can redeclare it, js ll NOT throw you an error
+
+- It is a global scope/Functional scope
+
+- But whenever we declare it anywhere inside a function we can access it only inside that function, it ll not attach itself to the global object.
+
+- It dosent matter anywhere you declare it a function and access it anywhere inside a function.
+
+- It ll attach itself to the global/window object when ever we declare it in global space.
+
+- Hoisting happens.
+
+- During memory creation phase var is assigned to undefined.
+
+
+LET
+- It was introduced in Ecma Script 6 
+
+- You cannot redeclare a variable once it is declared using let
+
+- Its a block level scope
+
+- once declared inside a block can only accessed only inside that block.
+
+- It is hoisted but little bit different than var.
+
+- It is hoisted but during memory creation phase undefined is not assigned.
+
+- It stays in a zone called a temporal dead zone.
+
+- we cannot access variables present in temporal dead zone unless an until we intailize it.
+
+- when it in in temporal dead zone we cannot access it.
+
+
+CONST
+- It behaviour is simillar to let.
+
+- Once the value is assigned cannot be reassigned.
+
