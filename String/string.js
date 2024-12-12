@@ -54,7 +54,7 @@ console.log(sentence.substring(2,5));
 console.log(sentence.charCodeAt(2));
 
 // Return the total length of the sentence
-console.log(sentence.length());
+console.log(sentence.length);
 
 // Get substring which starts from 2 and ends with 4, 5 is excluded
 // If the ending index is not specified its consider till the end of the string
