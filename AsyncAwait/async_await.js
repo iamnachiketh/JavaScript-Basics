@@ -56,3 +56,7 @@ async function getProducts(){
 getProducts();
 
 console.log("Outside Function Scope"); //4th excuted.
+
+//Under the hood async/await also uses promises but i just a different way of writting code 
+
+// Promises and async/await can be used but async/await is the newer versions.
