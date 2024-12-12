@@ -62,15 +62,15 @@ console.log("===============================================");
 //Non - Primitive
 // Note: All the types of Wrapper Object are Object type.
 //Object
-let g = null;
-console.log(g);
-console.log(typeof g);// Object
+let data = null;
+console.log(data);
+console.log(typeof data);// Object
 
 console.log("===============================================");
 
 //Array Object
 let arr = [];
-let arr2 = [10,"hello",23.987,true,{name:"arr2"}];
+let arr2 = [10,"hello",23.987,true,{name:"alex"}];
 console.log(arr);
 console.log(arr2);
 console.log(typeof arr); //Object
