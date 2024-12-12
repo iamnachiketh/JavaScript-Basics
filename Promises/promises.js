@@ -4,6 +4,8 @@
 
 // Promises solves callback hell problem.
 
+// Promise has three states pending fulfill rejected
+
 //Example
 let num = 12; // Check is this number is prime or not
 let promise = new Promise((resolve, reject) => {
