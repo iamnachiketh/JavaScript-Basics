@@ -2,6 +2,8 @@
 
 // Using promise we can have control over our code
 
+// Promises solves callback hell problem.
+
 //Example
 let num = 12; // Check is this number is prime or not
 let promise = new Promise((resolve, reject) => {
