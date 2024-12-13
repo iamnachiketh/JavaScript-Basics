@@ -32,3 +32,7 @@ object2.age = 21
 console.log(object2);
 
 // Prototypal inheritance is the process of inheriting all the properties of one object to another.
+
+// For objects in modren javascript we can use Object.getPrototypeOf for  clean code.
+
+//Methods and properties are going to be shared among all the instances saving the memory.
